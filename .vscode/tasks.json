@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Python Script",
+        "type": "shell",
+        "command": "cmd",
+        "args": [
+          "/c",
+          "copy \"${file}\" \"${workspaceFolder}\\script.py\" && python \"${workspaceFolder}\\script.py\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\""
+        ],
+        "presentation": {
+          "reveal": "never"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": {
+          "owner": "python",
+          "fileLocation": [
+            "relative",
+            "${workspaceFolder}"
+          ],
+          "pattern": {
+            "regexp": "^File \"(.*)\", line (\\d+), in (.*)",
+            "file": 1,
+            "line": 2,
+            "message": 3
+          }
+        }
+      }
+    ]
+  }
+  
