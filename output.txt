@@ -1,1 +1,14 @@
-3
+<class 'float'> <class 'str'> <class 'int'> <class 'list'> <class 'tuple'> <class 'dict'>
+dict_keys(['1', '2', '3'])
+dict_items([('1', 'apple'), ('2', 6), ('3', 'honey')])
+I am learning python
+I AM LEARNING PYTHON
+i am learning python
+['hello', 2, 4, 7, 5, 4, 3, 4]
+['hello', 89, 4, 7, 5, 4, 3, 4]
+{3, 4, 5, 7, 89, 'hello'}
+(3, 67, 4, 'iknow')
+9 2
+dict_items([('8', 9), ('roll no', 2)])
+dict_values([9, 2])
+5103harry
